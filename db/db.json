@@ -1,0 +1,84 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "hoang",
+      "password": "12345",
+      "name": "Nguyen Duc Hoang",
+      "email": "hoang@gmail.com",
+      "role": "user"
+    },
+    {
+      "id": 2,
+      "username": "hoang1",
+      "password": "12345",
+      "name": "Nguyen Duc Hoang1",
+      "email": "hoang1@gmail.com",
+      "role": "admin"
+    },
+    {
+      "id": "4",
+      "email": "phuc@gmail.com",
+      "name": "phuc"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Bag",
+      "img": "/img/categories/bag.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Demin",
+      "img": "/img/categories/demin.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Jacket",
+      "img": "/img/categories/jacket.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Shoe",
+      "img": "/img/categories/shoes.jpg"
+    }
+  ],
+  "product": [
+    {
+      "id": 1,
+      "name": "Shirt 1",
+      "img": "/img/topcontent/img1.jpg",
+      "price": 50,
+      "event": "newarrival"
+    },
+    {
+      "id": 2,
+      "name": "Shirt 2",
+      "img": "/img/topcontent/img1.jpg",
+      "price": 50,
+      "event": "bestseller"
+    },
+    {
+      "id": 3,
+      "name": "Shirt 3",
+      "img": "/img/topcontent/img1.jpg",
+      "price": 50,
+      "event": "newarrival"
+    },
+    {
+      "id": 4,
+      "name": "Shirt 4",
+      "img": "/img/topcontent/img1.jpg",
+      "price": 50,
+      "event": "newarrival"
+    },
+    {
+      "id": "5",
+      "name": "Shirt 5",
+      "img": "/img/topcontent/img2.png",
+      "price": "70",
+      "event": "newarrival"
+    }
+  ]
+}

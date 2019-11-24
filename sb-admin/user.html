@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>SB Admin</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/sb-admin.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/userStyle.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  </head>
+
+  <body>
+
+    <div id="wrapper">
+
+    
+      <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">SB Admin</a>
+        </div>
+
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+          <ul class="nav navbar-nav side-nav">
+              <li class="active"><a href="blank-page.html"><i class="fa fa-file"></i> Blank Page</a></li>
+            <li><a href=""><i class="fa fa-dashboard"></i> User</a></li>
+            <li><a href="product.html"><i class="fa fa-bar-chart-o"></i> Product</a></li>
+            <li><a href=""><i class="fa fa-table"></i> Slider</a></li>
+          
+           
+         
+          </ul>
+
+          <ul class="nav navbar-nav navbar-right navbar-user"> 
+            <li class="dropdown user-dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> John Smith <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="#"><i class="fa fa-power-off"></i> Log Out</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </nav>
+
+      <div id="page-wrapper">
+
+        <div class="row">
+          <div class="col-lg-12">
+            <h1>User</h1>
+            <ol class="breadcrumb">
+              <li><a href="index.html"><i class="icon-dashboard"></i> Dashboard</a></li>
+              <li class="active"><i class="icon-file-alt"></i> User</li>
+            </ol>
+          </div>
+        </div><!-- /.row -->
+        <div class="container">
+            <div class="row">
+            
+            
+            
+                <div class="col-md-10 col-md-offset-1">
+        
+                    <div class="panel panel-default panel-table">
+                      <div class="panel-heading">
+                        <div class="row">
+                          <div class="col col-xs-6">
+                            <h3 class="panel-title">List user</h3>
+                          </div>
+                          <div class="col col-xs-6 text-right">
+                            
+                            <button type="button" class="btn btn-sm btn-primary btn-create" id="btnget">List User</button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="panel-body">
+                        <table class="table table-striped table-bordered table-list" id="list_table_json">
+                          <thead>
+                            <tr>
+                              
+                                <th class="">ID</th>
+                                <th>Name</th>
+                                <th>Email</th>
+                                
+
+                            </tr> 
+                          </thead>
+                          <tbody>
+                                 
+                                </tbody>
+                        </table>
+                    
+                      </div>
+                      
+                    </div>
+                    <form class="form-inline">
+                        <div class="form-group">
+                    
+                <input type="id" id="iduser" class="form-control mx-sm-3" placeholder="Enter id"><br>
+                <br>
+                <input type="text" id="name" class="form-control mx-sm-3"  placeholder="Enter name"><br>
+                <br>
+                <input type="text" id="email" class="form-control mx-sm-3"  placeholder="Enter email">
+                        </div>
+                        <br><br>
+              </form>
+              
+                    <div class="directbtn">
+                      <button type="button" id="btnadd" onclick="addUser"class="btn btn-primary">Add</button>
+                      <button type="button "id="btnup" onclick="updateUser"class="btn btn-primary">Update</button>
+                      <button type="button" id="btndel" onclick="deleteUser"class="btn btn-primary">Delete</button>
+                    </div>
+        </div></div></div>
+      </div><!-- /#page-wrapper -->
+
+    </div><!-- /#wrapper -->
+
+    <!-- JavaScript -->
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/crudUser.js"></script>
+
+  </body>
+</html>

@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+      integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+      crossorigin="anonymous"
+    />
+    
+    <link
+      href="https://fonts.googleapis.com/css?family=Advent+Pro|Cutive+Mono|Didact+Gothic|Homemade+Apple|Marvel|Russo+One|IBM+Plex+Mono"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/homeStyle/style.css" />
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>HStore</title>
+  </head>
+  <body>
+    <div id="wrapper">
+      <div id="header">
+        <div id="top-header">
+          <div id="left-top-header"><h4>Welcome to Store</h4></div>
+          <div id="right-top-header"> 
+            <a href="signin.html">Sign In</a> <a href="">Sign Up</a>
+          </div>
+        </div>
+        <div id="bottom-header">
+          <div id="left-bottom-header">
+            <div id="logo"><img src="img/logo/ing.png" alt="" /></div>
+          </div>
+          <div id="menu">
+            <ul>
+              <li><a href="">Home</a></li>
+              <li>
+                <a href=""
+                  >Categories
+                  <span id="open"
+                    ><i class="fa fa-angle-down" aria-hidden="true"></i
+                  ></span>
+                </a>
+              </li>
+              <li><a href="">Event</a></li>
+              <li><a href="">About</a></li>
+              <li><a href="">Contact</a></li>
+              <li><a href="">Galery</a></li>
+            </ul>
+          </div>
+
+          <div id="search-area">
+            <i class="fa fa-search" aria-hidden="true"></i>
+
+            <input type="text" name="" id="" placeholder="Search" />
+          </div>
+        </div>
+      </div>
+      <div id="slider">
+        <div
+          id="carouselExampleControls"
+          class="carousel slide"
+          data-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                class="d-block w-100"
+                src="img/slider/1.jpg"
+                alt="First slide"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                class="d-block w-100"
+                src="img/slider/2.jpg"
+                alt="Second slide"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                class="d-block w-100"
+                src="img/slider/1.jpg"
+                alt="Third slide"
+              />
+            </div>
+          </div>
+          <a
+            class="carousel-control-prev"
+            href="#carouselExampleControls"
+            role="button"
+            data-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#carouselExampleControls"
+            role="button"
+            data-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+      <div id="content">
+    
+        <div id="category-content">
+          <div id="inner-category-content" >
+                
+               
+        </div>
+        </div>
+        <div id="top-content">
+          <div id="inner-top-content">
+            <div class="title-content">
+              <h2>New Arrivals</h2>
+              <h4>Most Trendy 2018 Clother</h4>
+            </div>
+            <div class="list-product" id="list1"> 
+            </div>
+          </div>
+        </div>
+        <div id="collection-content">
+          <div id="inner-collection-content">
+            <div class="title-content">
+              <h2>Trending</h2>
+              <h4>2018 COLLECTIONS</h4>
+            </div>
+            <div class="list-item-collection">
+              <div class="block-collection">
+                <div class="des-block-collection">
+                  <h4 class="price">$165.32</h4>
+                  <h4 class="name">Leather Shoes</h4>
+                  <h5 class="asce">Bags,Mens</h5>
+                </div>
+                <div class="pic-collection">
+                  <img src="img/collection/img3.jpg" alt="" />
+                </div>
+              </div>
+              <div class="block-collection">
+                <div class="des-block-collection">
+                  <h4 class="price">$165.32</h4>
+                  <h4 class="name">Leather Shoes</h4>
+                  <h5 class="asce">Bags,Mens</h5>
+                </div>
+                <div class="pic-collection">
+                  <img src="img/collection/img3.jpg" alt="" />
+                </div>
+              </div>
+              <div class="block-collection">
+                <div class="des-block-collection">
+                  <h4 class="price">$165.32</h4>
+                  <h4 class="name">Leather Shoes</h4>
+                  <h5 class="asce">Bags,Mens</h5>
+                </div>
+                <div class="pic-collection">
+                  <img src="img/collection/img3.jpg" alt="" />
+                </div>
+              </div>
+              <div class="block-collection">
+                <div class="des-block-collection">
+                  <h4 class="price">$165.32</h4>
+                  <h4 class="name">Leather Shoes</h4>
+                  <h5 class="asce">Bags,Mens</h5>
+                </div>
+                <div class="pic-collection">
+                  <img src="img/collection/img3.jpg" alt="" />
+                </div>
+              </div>
+              <div class="block-collection">
+                <div class="des-block-collection">
+                  <h4 class="price">$165.32</h4>
+                  <h4 class="name">Leather Shoes</h4>
+                  <h5 class="asce">Bags,Mens</h5>
+                </div>
+                <div class="pic-collection">
+                  <img src="img/collection/img3.jpg" alt="" />
+                </div>
+              </div>
+              <div class="block-collection">
+                <div class="des-block-collection">
+                  <h4 class="price">$165.32</h4>
+                  <h4 class="name">Leather Shoes</h4>
+                  <h5 class="asce">Bags,Mens</h5>
+                </div>
+                <div class="pic-collection">
+                  <img src="img/collection/img3.jpg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="adv-content">
+          <div id="inner-adv-content">
+            <a href="">
+              <div class="pic-adv"><img src="img/adv/img3.jpg" alt="" /></div>
+            </a>
+            <a href="">
+              <div class="pic-adv"><img src="img/adv/img4.jpg" alt="" /></div>
+            </a>
+          </div>
+        </div>
+        <div id="recent-content">
+          <div id="inner-recent-content">
+            <div class="title-content">
+              <h2>Our Best Sellers</h2>
+              <h4>Most Seller 2018 Clother</h4>
+            </div>
+            <div class="list-product">
+              <div class="block-product">
+                <div class="pic-product">
+                  <div class="new-product">NEW</div>
+                  <div class="des-pic-product">
+                    <a href=""><i class="fas fa-search" aria-hidden="true"></i></a> 
+                  </div>
+                  <img src="img/topcontent/img1.jpg" alt="" />
+                </div>
+                <div class="des-block-product">
+                  <div class="title-product">
+                    <h4>New Look Mix Material</h4>
+                  </div>
+                  <div class="price-product"><p>$86.54</p></div>
+                  <div class="buy-product">
+                    <a href=""
+                      ><i
+                        class="fa fa-chevron-circle-down"
+                        aria-hidden="true"
+                      ></i>
+                      Add To Cart</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="block-product">
+                <div class="pic-product">
+                  <div class="new-product">NEW</div>
+                  <div class="des-pic-product">
+                    <a href=""><i class="fas fa-search" aria-hidden="true"></i></a> 
+                  </div>
+                  <img src="img/topcontent/img1.jpg" alt="" />
+                </div>
+                <div class="des-block-product">
+                  <div class="title-product">
+                    <h4>New Look Mix Material</h4>
+                  </div>
+                  <div class="price-product"><p>$86.54</p></div>
+                  <div class="buy-product">
+                    <a href=""
+                      ><i
+                        class="fa fa-chevron-circle-down"
+                        aria-hidden="true"
+                      ></i>
+                      Add To Cart</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="block-product">
+                <div class="pic-product">
+                  <div class="new-product">NEW</div>
+                  <div class="des-pic-product">
+                    <a href=""><i class="fas fa-search" aria-hidden="true"></i></a> 
+                  </div>
+                  <img src="img/topcontent/img1.jpg" alt="" />
+                </div>
+                <div class="des-block-product">
+                  <div class="title-product">
+                    <h4>New Look Mix Material</h4>
+                  </div>
+                  <div class="price-product"><p>$86.54</p></div>
+                  <div class="buy-product">
+                    <a href=""
+                      ><i
+                        class="fa fa-chevron-circle-down"
+                        aria-hidden="true"
+                      ></i>
+                      Add To Cart</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="block-product">
+                <div class="pic-product">
+                  <div class="new-product">NEW</div>
+                  <div class="des-pic-product">
+                    <a href=""><i class="fas fa-search" aria-hidden="true"></i></a> 
+                  </div>
+                  <img src="img/topcontent/img1.jpg" alt="" />
+                </div>
+                <div class="des-block-product">
+                  <div class="title-product">
+                    <h4>New Look Mix Material</h4>
+                  </div>
+                  <div class="price-product"><p>$86.54</p></div>
+                  <div class="buy-product">
+                    <a href=""
+                      ><i
+                        class="fa fa-chevron-circle-down"
+                        aria-hidden="true"
+                      ></i>
+                      Add To Cart</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="block-product">
+                <div class="pic-product">
+                  <div class="new-product">NEW</div>
+                  <div class="des-pic-product">
+                    <a href=""><i class="fas fa-search" aria-hidden="true"></i></a> 
+                  </div>
+                  <img src="img/topcontent/img1.jpg" alt="" />
+                </div>
+                <div class="des-block-product">
+                  <div class="title-product">
+                    <h4>New Look Mix Material</h4>
+                  </div>
+                  <div class="price-product"><p>$86.54</p></div>
+                  <div class="buy-product">
+                    <a href=""
+                      ><i
+                        class="fa fa-chevron-circle-down"
+                        aria-hidden="true"
+                      ></i>
+                      Add To Cart</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="block-product">
+                <div class="pic-product">
+                  <div class="new-product">NEW</div>
+                  <div class="des-pic-product">
+                    <a href=""><i class="fas fa-search" aria-hidden="true"></i></a> 
+                  </div>
+                  <img src="img/topcontent/img1.jpg" alt="" />
+                </div>
+                <div class="des-block-product">
+                  <div class="title-product">
+                    <h4>New Look Mix Material</h4>
+                  </div>
+                  <div class="price-product"><p>$86.54</p></div>
+                  <div class="buy-product">
+                    <a href=""
+                      ><i
+                        class="fa fa-chevron-circle-down"
+                        aria-hidden="true"
+                      ></i>
+                      Add To Cart</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="block-product">
+                <div class="pic-product">
+                  <div class="new-product">NEW</div>
+                  <div class="des-pic-product">
+                    <a href=""><i class="fas fa-search" aria-hidden="true"></i></a> 
+                  </div>
+                  <img src="img/topcontent/img1.jpg" alt="" />
+                </div>
+                <div class="des-block-product">
+                  <div class="title-product">
+                    <h4>New Look Mix Material</h4>
+                  </div>
+                  <div class="price-product"><p>$86.54</p></div>
+                  <div class="buy-product">
+                    <a href=""
+                      ><i
+                        class="fa fa-chevron-circle-down"
+                        aria-hidden="true"
+                      ></i>
+                      Add To Cart</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="block-product">
+                <div class="pic-product">
+                  <div class="new-product">NEW</div>
+                  <div class="des-pic-product">
+                    <a href=""><i class="fas fa-search" aria-hidden="true"></i></a> 
+                  </div>
+                  <img src="img/topcontent/img1.jpg" alt="" />
+                </div>
+                <div class="des-block-product">
+                  <div class="title-product">
+                    <h4>New Look Mix Material</h4>
+                  </div>
+                  <div class="price-product"><p>$86.54</p></div>
+                  <div class="buy-product">
+                    <a href=""
+                      ><i
+                        class="fa fa-chevron-circle-down"
+                        aria-hidden="true"
+                      ></i>
+                      Add To Cart</a
+                    >
+                  </div>
+                </div>
+              </div>
+             
+            </div>
+          </div>
+        </div>
+        <div id="blog-content">
+          <div id="inner-blog-content">
+            <div class="title-content">
+              <h2>Latest Blog Posts</h2>
+              <h4>There are latest blog posts</h4>
+            </div>
+            <div id="list-blog">
+              <div class="blog-card">
+                <div class="des-blog">
+                  <h5>
+                    Posted By:<span id="blue">Phuc Store</span>-14,July,2018
+                  </h5>
+                  <h4>LONDON FASHION WEEK CANDY ROCK</h4>
+                </div>
+                <div class="pic-blog">
+                  <img src="img/blog/img1.jpg" alt="" />
+                </div>
+              </div>
+              <div class="blog-card">
+                <div class="des-blog">
+                  <h5>
+                    Posted By:<span id="blue">Phuc Store</span>-14,July,2018
+                  </h5>
+                  <h4>LONDON FASHION WEEK CANDY ROCK</h4>
+                </div>
+                <div class="pic-blog">
+                  <img src="img/blog/img1.jpg" alt="" />
+                </div>
+              </div>
+              <div class="blog-card">
+                <div class="des-blog">
+                  <h5>
+                    Posted By:<span id="blue">Phuc Store</span>-14,July,2018
+                  </h5>
+                  <h4>LONDON FASHION WEEK CANDY ROCK</h4>
+                </div>
+                <div class="pic-blog">
+                  <img src="img/blog/img1.jpg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="feedback-content">
+          <div id="inner-feedback-content">
+            <div class="des-feedback">
+              <div class="title-content"><h2>Feedback</h2></div>
+              <div class="icon">
+                <i class="fab fa-facebook-messenger    "></i>
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis,
+                et ipsam quos cumque eos facilis, minima magnam velit doloribus
+                cupiditate aut iste vitae ipsum, dolorem ut suscipit obcaecati
+                aperiam aspernatur! Nobis, et ipsam quos cumque eos facilis,
+                minima magnam velit doloribus cupiditate aut iste vitae ipsum,
+                dolorem ut suscipit obcaecati aperiam aspernatur!
+              </p>
+            </div>
+            <div class="des-avatar">
+              <div class="pic-avatar">
+                <img src="img/feedback/img1.jpg" alt="" />
+              </div>
+              <div class="pic-name"><h4>HUY PHAM</h4></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section id="footer">
+		<div class="container">
+			<div class="row text-center text-xs-center text-sm-left text-md-left">
+				<div class="col-xs-12 col-sm-4 col-md-4">
+					<h5>Quick links</h5>
+					<ul class="list-unstyled quick-links">
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Home</a></li>
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>About</a></li>
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Get Started</a></li>
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Videos</a></li>
+					</ul>
+				</div>
+				<div class="col-xs-12 col-sm-4 col-md-4">
+					<h5>Quick links</h5>
+					<ul class="list-unstyled quick-links">
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Home</a></li>
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>About</a></li>
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Get Started</a></li>
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Videos</a></li>
+					</ul>
+				</div>
+				<div class="col-xs-12 col-sm-4 col-md-4">
+					<h5>Quick links</h5>
+					<ul class="list-unstyled quick-links">
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Home</a></li>
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>About</a></li>
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Get Started</a></li>
+						<li><a href="https://wwwe.sunlimetech.com" title="Design and developed by"><i class="fa fa-angle-double-right"></i>Imprint</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+					<ul class="list-unstyled list-inline social text-center">
+						<li class="list-inline-item"><a href="javascript:void();"><i class="fab fa-facebook"></i></a></li>
+						<li class="list-inline-item"><a href="javascript:void();"><i class="fab fa-twitter"></i></a></li>
+						<li class="list-inline-item"><a href="javascript:void();"><i class="fab fa-instagram"></i></a></li>
+						<li class="list-inline-item"><a href="javascript:void();"><i class="fab fa-google-plus"></i></a></li>
+						<li class="list-inline-item"><a href="javascript:void();" target="_blank"><i class="fa fa-envelope"></i></a></li>
+					</ul>
+				</div>
+				</hr>
+			</div>	
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+					<p><u><a href="https://www.nationaltransaction.com/">National Transaction Corporation</a></u> is a Registered MSP/ISO of Elavon, Inc. Georgia [a wholly owned subsidiary of U.S. Bancorp, Minneapolis, MN]</p>
+					<p class="h6">&copy All right Reversed.<a class="text-green ml-2" href="https://www.sunlimetech.com" target="_blank">Sunlimetech</a></p>
+				</div>
+				</hr>
+			</div>	
+		</div>
+	</section>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+   
+         <script src="js/index.js"></script>
+  </body>
+</html>
